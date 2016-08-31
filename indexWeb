@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>情侣设计院</title>
+</head>
+
+<body>
+
+        <nav align="center">
+            <img src="log.png" alt="情侣设计院" width="200" height="60">
+            <p>您好！以下是一份匿名调查，请根据您的真实情况填写或勾选。感谢您的参与！</p><hr>
+        </nav>
+            <h3>个人信息:</h3>
+            *性 &nbsp; &nbsp; 别：&nbsp;
+            <input type="radio" name="rad1" value="A">先生 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="radio" name="rad1" value="B">女士 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            *是否为独生子女：：<input type="radio" name="rad2" value="A">是 &nbsp; &nbsp; 
+                             <input type="radio" name="rad2" value="B">否<br><br>
+            *出生年月：<input type="date"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            *测试年月：<input type="date"><br><br>
+            *籍 &nbsp;贯： &nbsp;<input type="text" placeholder="请输入省份">&nbsp; &nbsp; &nbsp; 
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+
+&nbsp;  
+            *现在学习/工作地：<input type="text" placeholder="请输入省市"><br><br>
+            *学 &nbsp; &nbsp; &nbsp;历： &nbsp;
+                    <input type="radio" name="rad3" value="A">小学及以下 &nbsp; &nbsp;
+                    <input type="radio" name="rad3" value="B">初中 &nbsp; &nbsp;
+                    <input type="radio" name="rad3" value="C">高中或中专 &nbsp; &nbsp;
+                    <input type="radio" name="rad3" value="D">大专 &nbsp; &nbsp;
+                    <input type="radio" name="rad3" value="E">本科 &nbsp; &nbsp;
+                    <input type="radio" name="rad3" value="F">硕士 &nbsp; &nbsp;
+                    <input type="radio" name="rad3" value="G">博士<br><br>
+            *性 取 向： &nbsp;<input type="radio" name="rad4" value="A">异性恋 &nbsp; &nbsp; 
+                            <input type="radio" name="rad4" value="B">同性恋 &nbsp; &nbsp;
+                            <input type="radio" name="rad4" value="C">双性恋 &nbsp; &nbsp;
+                            <input type="radio" name="rad4" value="D">其他<br><br>
+            *婚姻状态：<input type="radio" name="rad5" value="A">单身 &nbsp; &nbsp;
+                      <input type="radio" name="rad5" value="B">已婚 &nbsp; &nbsp;
+                      <input type="radio" name="rad5" value="C">离异&nbsp; &nbsp;
+                      <input type="radio" name="rad5" value="D">丧偶&nbsp; &nbsp;<br><br><br>
+                      <h3>家庭信息:</h3>
+            *母亲学历：<input type="radio" name="rad6" value="A">小学及以下 &nbsp; &nbsp;
+                    <input type="radio" name="rad6" value="B">初中 &nbsp; &nbsp;
+                    <input type="radio" name="rad6" value="C">高中或中专 &nbsp; &nbsp;
+                    <input type="radio" name="rad6" value="D">大专 &nbsp; &nbsp;
+                    <input type="radio" name="rad6" value="E">本科 &nbsp; &nbsp;
+                    <input type="radio" name="rad6" value="F">硕士 &nbsp; &nbsp;
+                    <input type="radio" name="rad6" value="G">博士<br><br>
+            *父亲学历：<input type="radio" name="rad7" value="A">小学及以下 &nbsp; &nbsp;
+                    <input type="radio" name="rad7" value="B">初中 &nbsp; &nbsp;
+                    <input type="radio" name="rad7" value="C">高中或中专 &nbsp; &nbsp;
+                    <input type="radio" name="rad7" value="D">大专 &nbsp; &nbsp;
+                    <input type="radio" name="rad7" value="E">本科 &nbsp; &nbsp;
+                    <input type="radio" name="rad7" value="F">硕士 &nbsp; &nbsp;
+                    <input type="radio" name="rad7" value="G">博士<br><br>
+            *家庭人均月收入：<input type="radio" name="rad8" value="A">2000元以下 &nbsp; &nbsp;
+                            <input type="radio" name="rad8" value="B">2000-4000元 &nbsp; &nbsp;  
+                            <input type="radio" name="rad8" value="C">4000-6000元 &nbsp; &nbsp;
+                            <input type="radio" name="rad8" value="D">6000-8000元 &nbsp; &nbsp;
+                            <input type="radio" name="rad8" value="E">8000-10000元 &nbsp; &nbsp;
+                            <input type="radio" name="rad8" value="F">10000-15000元 &nbsp; &nbsp;  
+                            <input type="radio" name="rad8" value="G">15000-20000元 &nbsp; &nbsp; 
+                            <input type="radio" name="rad8" value="H">20000元以上 &nbsp; &nbsp; <br>
+        	<p>*下面会呈现一个梯子。其中，处于梯子最顶端的是那些最富裕的人，他们拥有最多的钱、最
+
+高的教育程度和最体面的工作；处于梯子最底端是那些最贫穷的人，他们拥有最少的钱、最低的教育程度和最不体
+
+面的工作。</p>	 
+            <p>相比周围其他人的家庭情况，思考一下你与其他人有怎样的差别。相对于那些处于最顶端或最低端
+
+的人，你会把自己放在梯子的哪一级？请您圈出梯子右面相应的数字。</p>  <br>
+    <div align="center">
+    <img src="log1.png" alt="梯子">
+    </div>         
+    *您选择的梯子层数是：<input type="radio" name="rad9" value="A">01 &nbsp; &nbsp;
+    					<input type="radio" name="rad9" value="B">02 &nbsp; &nbsp;
+                      <input type="radio" name="rad9" value="C">03 &nbsp; &nbsp;
+                      <input type="radio" name="rad9" value="D">04 &nbsp; &nbsp;
+                      <input type="radio" name="rad9" value="E">05 &nbsp; &nbsp;
+                     <input type="radio" name="rad9" value="F">06 &nbsp; &nbsp;
+                      <input type="radio" name="rad9" value="G">07 &nbsp; &nbsp;
+                      <input type="radio" name="rad9" value="H">08 &nbsp; &nbsp;
+                      <input type="radio" name="rad9" value="I">09 &nbsp; &nbsp;
+                      <input type="radio" name="rad9" value="J">10 &nbsp; &nbsp;<br><br>
+<p>您好！欢迎参加我们的研究! 这是一项匿名调查, 旨在了解每个人心目中的理想伴侣的形象。请根据下面的指导
+
+语填写本问卷，对您的回答我们将严格保密。谢谢您的参与！</p><br>
+<p>接下来，您将获得一定数量的择偶币，它可以用来购买您的理想伴侣的特征。</p>
+<table border="1">
+<colgroup span="1" width="120">
+</colgroup>
+<colgroup span="11" width="80px">
+</colgroup>
+<tr><td>择偶币
+
+</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9<
+
+/td><td>10</td></tr>
+<tr><td>对应百分
+
+数%</td><td>0</td><td>10</td><td>20</td><td>30</td><td>40</td><td>50</td><td>60</td><td>70</td><td>80
+
+</td><td>90</td><td>100</td></tr>
+</table>
+<p>对每个特征，您可以分配0~10个择偶币。其中，0表示不分配择偶币；<u>分配1个择偶币表示您希望理想伴侣在
+
+该特质上的优秀程度至少超过10%的人；</u>分配<u>5个</u>表示您希望理想伴侣在该特质上<u>至少超过50%的人
+
+</u>（中等水平）；分配10个代表您希望理想伴侣的该特质<strong>在异性人群中</strong>处于最高水平（100%）
+
+。依次类推，<strong>您分配的择偶币越多，代表您的理想伴侣在这个特质上越优秀。</strong></p>
+<p><strong>请注意：</strong>您<u>分配的所有择偶币的总数</u>应等于<u>我们给定的择偶币总数目！</u></p>
+<p>如果您理解了，请继续。如有疑问，请咨询研究人员。</p><br><br>
+<strong>下面开始计时。请记录开始时间：</strong><input type="time"><br><br>
+<p>现在，你拥有20个择偶币，对以下10个特征，你分别愿意花多少择偶币购买？
+请勾选相应的择偶币数值，<u>最后请检查总数是否等于20。</u></p>
+</body>
+</html>
